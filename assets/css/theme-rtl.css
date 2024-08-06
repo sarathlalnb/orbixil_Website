@@ -19514,7 +19514,7 @@ iframe {
 
 .hero-img {
   width: 105%;
-  margin-right: -5rem;
+  /* margin-right: 15rem; */
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
