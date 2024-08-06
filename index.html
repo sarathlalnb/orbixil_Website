@@ -16,7 +16,7 @@
   <!-- ===============================================-->
   <!--    Favicons-->
   <!-- ===============================================-->
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/orbixil.png">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/32x32.png">
   <!-- <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.ico"> -->
@@ -476,39 +476,54 @@
 
     <!-- ============================================-->
     <!-- <section> begin ============================-->
-    <section class="pt-6">
-
-      <div class="container">
-        <div class="py-8 px-5 position-relative text-center"
-          style="background-color: rgba(223, 215, 249, 0.199);border-radius: 129px 20px 20px 20px;">
-          <div class="position-absolute start-100 top-0 translate-middle ms-md-n3 ms-n4 mt-3"> <img
-              src="assets/img/cta/send.png" style="max-width:70px;" alt="send icon" /></div>
-          <div class="position-absolute end-0 top-0 z-index--1"> <img src="assets/img/cta/shape-bg2.png" width="264"
-              alt="cta shape" /></div>
-          <div class="position-absolute start-0 bottom-0 ms-3 z-index--1 d-none d-sm-block"> <img
-              src="assets/img/cta/shape-bg1.png" style="max-width: 340px;" alt="cta shape" /></div>
-          <div class="row justify-content-center">
-            <div class="col-lg-8 col-md-10">
-              <h2 class="text-secondary lh-1-7 mb-7">Subscribe to get information, latest news and other interesting
-                offers about Orbixil</h2>
-              <form class="row g-3 align-items-center w-lg-75 mx-auto">
-                <div class="col-sm">
-                  <div class="input-group-icon">
-                    <input class="form-control form-little-squirrel-control" type="email" placeholder="Enter email "
-                      aria-label="email" /><img class="input-box-icon" src="assets/img/cta/mail.svg" width="17"
-                      alt="mail" />
+      <section class="pt-6">
+        <div class="container">
+          <div class="py-8 px-5 position-relative text-center"
+            style="background-color: rgba(223, 215, 249, 0.199);border-radius: 129px 20px 20px 20px;">
+            <div class="position-absolute start-100 top-0 translate-middle ms-md-n3 ms-n4 mt-3">
+              <img src="assets/img/cta/send.png" style="max-width:70px;" alt="send icon" />
+            </div>
+            <div class="position-absolute end-0 top-0 z-index--1">
+              <img src="assets/img/cta/shape-bg2.png" width="264" alt="cta shape" />
+            </div>
+            <div class="position-absolute start-0 bottom-0 ms-3 z-index--1 d-none d-sm-block">
+              <img src="assets/img/cta/shape-bg1.png" style="max-width: 340px;" alt="cta shape" />
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-lg-8 col-md-10">
+                <h2 class="text-secondary lh-1-7 mb-7">Contact Us</h2>
+                <form class="row g-3 align-items-center w-lg-75 mx-auto">
+                  <div class="col-sm-12 col-md-6">
+                    <div class="input-group-icon">
+                      <input class="form-control form-little-squirrel-control" type="email" placeholder="Enter your email"
+                        aria-label="email" required />
+                      <img class="input-box-icon" src="assets/img/cta/mail.svg" width="17" alt="mail" />
+                    </div>
                   </div>
-                </div>
-                <div class="col-sm-auto">
-                  <button class="btn btn-danger orange-gradient-btn fs--1">Subscribe</button>
-                </div>
-              </form>
+                  <div class="col-sm-12 col-md-6">
+                    <div class="input-group-icon">
+                      <input class="form-control form-little-squirrel-control" type="tel" placeholder="Enter your phone number"
+                        aria-label="phone" />
+                      <img class="input-box-icon" src="assets/img/cta/call.svg" width="17" alt="phone" />
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="input-group-icon">
+                      <textarea class="form-control form-little-squirrel-control" placeholder="Enter your message"
+                        aria-label="message" rows="4" required></textarea>
+                      <img class="input-box-icon" src="assets/img/cta/feedback.svg" width="17" alt="message" />
+                    </div>
+                  </div>
+                  <div class="col-auto">
+                    <button class="btn btn-danger orange-gradient-btn fs--1" type="submit">Send Enquiry</button>
+                  </div>
+                </form>
+              </div>
             </div>
           </div>
-        </div>
-      </div><!-- end of .container-->
-
-    </section>
+        </div><!-- end of .container-->
+      </section>
+      
     <!-- <section> close ============================-->
     <!-- ============================================-->
 
@@ -517,7 +532,7 @@
 
     <!-- ============================================-->
     <!-- <section> begin ============================-->
-  <section class="pb-0 pb-lg-4">
+  <section class="pb-0 pb-lg-4"  style="background-image:url(assets/img/hero/hero-bg.svg);">
   <div class="container">
     <div class="row">
       <!-- Company Logo and Tagline -->
@@ -544,23 +559,25 @@
       </div>
 
       <!-- Social Media and App Downloads -->
+       
       <div class="col-lg-3 col-md-5 col-12 mb-4 mb-md-6 mb-lg-0">
+        <h4 class="footer-heading-color fw-bold font-sans-serif mb-4">Our Socials</h4>
         <div class="icon-group mb-4">
-          <a class="text-decoration-none icon-item shadow-social" id="facebook" href="#!">
+          <!-- <a class="text-decoration-none icon-item shadow-social" id="facebook" href="#!">
             <i class="fab fa-facebook-f"></i>
-          </a>
-          <a class="text-decoration-none icon-item shadow-social" id="instagram" href="#!">
+          </a> -->
+          <a class="text-decoration-none icon-item shadow-social" id="instagram" href="https://www.instagram.com/orbixil?igsh=MW1uMGEyMW91ZnY4bQ==">
             <i class="fab fa-instagram"></i>
           </a>
-          <a class="text-decoration-none icon-item shadow-social" id="linkedin" href="#!">
+          <a class="text-decoration-none icon-item shadow-social" id="linkedin" href="https://www.linkedin.com/company/orbixil/">
             <i class="fab fa-linkedin"></i>
           </a>
         </div>
-        <h4 class="fw-medium font-sans-serif text-secondary mb-3">Follow Us</h4>
-        <div class="d-flex align-items-center">
+        <!-- <h4 class="fw-medium font-sans-serif text-secondary mb-3">Follow Us</h4> -->
+        <!-- <div class="d-flex align-items-center">
           <a href="#!"><img class="me-2" src="assets/img/play-store.png" alt="Google Play Store" /></a>
           <a href="#!"><img src="assets/img/apple-store.png" alt="Apple App Store" /></a>
-        </div>
+        </div> -->
       </div>
     </div>
   </div><!-- end of .container-->
